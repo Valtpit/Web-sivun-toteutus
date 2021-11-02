@@ -1,0 +1,174 @@
+body {
+  background-color: #c2c2d6;
+}
+
+header,
+nav,
+main {
+  background-color: snow;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 20px 20px;
+  font-family: verdana;
+  border-radius: 10px;
+}
+
+nav,
+header {
+    background-color: #E8F3E8;
+    margin-bottom: 1em;
+    padding: 10px 10px 10px 20px;
+}
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    background-color: #E8F3E8;
+    line-height: 2em;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav li a:hover {
+    background-color: #559E54;
+    color: #E8F3E8;
+    text-decoration: none;
+}
+
+nav ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+address {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: #305A30;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #305A30;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #559E54;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia;
+}
+
+h1 {
+  color: #0A3409;
+}
+
+h2 {
+  color: #305A30;
+}
+
+h3 {
+  color: #559E54;
+}
+
+figure {
+  margin-left: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  border: 3px solid #305A30;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #559E54;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #E8F3E8;
+  color: #0A3409;
+}
+
+.lista {
+  border: 1px solid;
+  border-radius: 10px;
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.lista h3 {
+  background-color: #E8F3E8;
+  margin-top: 0px;
+  line-height: 2em;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.lista ul ul {
+  padding-left: 20px;
+}
+
+.c1 {
+  font-family: Georgia;
+  font-style: italic;
+  color: #559E54;
+}
+
+.c2 {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.c3 {
+  background-color: #c2c2d6;
+}
+
+.c4 {
+  background-color: #E8F3E8;
+}
+
+.kuvat li {
+    display: inline-block;
+    max-width: 20%;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.kuvat li img{
+    border: 3px;
+    border-color: #305A30;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+ul.kuvat {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+article h2 {
+  font-size: large;
+  font-weight: bold;
+}

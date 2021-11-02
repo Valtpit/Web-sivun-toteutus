@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <title>Ota yhteyttä :: VP</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Valtteri Pitkänen" />
+    <link rel="stylesheet" href="css/Pitkanen_Valtteri.css" />
+    <link rel="stylesheet" href="css/ResetCss.css" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>Opiskelua Oulussa</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Minä</a></li>
+            <li><a href="tietojenkasittely-VP.html">Opiskelu</a></li>
+            <li><a href="huvittelu-VP.html">Vapaa-aika</a></li>
+            <li><a href="kuvat-VP.html">Kuvia</a></li>
+            <li><a href="lomake-VP.html">Ota yhteyttä</a></li>
+          </ul>
+        </nav>
+      </header>
+      <article>
+
+        <h2>Ota yhteyttä</h2>
+
+
+        <form>
+        <div class="taulukko">
+          <label for="nimi">Nimi:</label>
+          <input type="text" id="nimi" maxlength="30" size="20" />
+        </div>
+
+        <div class="taulukko">
+          <label for="email">Sähköposti:</label>
+          <input type="text" id="email" maxlength="30" size="20" />
+        </div>
+
+        <div class="taulukko">
+          <label for="palaute">Aihe:</label>
+          <input type="radio" id="+" name="palaute" checked />
+          <label for="+">Positiivinen palaute</label>
+          <input type="radio" id="-" name="palaute" />
+          <label for="-">Negatiivinen palaute</label>
+          <input type="radio" id="other" name="palaute" />
+          <label for="other">Muu palaute</label>
+        </div>
+
+        <div class="taulukko">
+          <label for="yhteys">Aihe:</label>
+          <input type="radio" id="emaili" name="yhteys" checked />
+          <label for="emaili">Sähköposti</label>
+          <input type="radio" id="Puh." name="yhteys" />
+          <label for="Puh.">Puh.</label>
+          <input type="text" id="Puh." maxlength="12" size="20" />
+        </div>
+
+        <div class="taulukko">
+          <label for="otsikko">Otsikko:</label>
+          <input type="text" id="otsikko" maxlength="50" size="20" />
+        </div>
+
+        <div class="taulukko">
+          <label for="viesti">Viesti:</label>
+          <textarea id="viesti" rows="3" cols="35"></textarea>
+        </div>
+
+        <div class="painikkeet">
+          <input type="submit" value="Lähetä">
+          <input type="reset" value="Tyhjennä">
+        </div>
+
+        
+
+      </form>
+
+      </article>
+
+      <footer>
+        <div class="vasen">
+          <p>Valtteri Pitkänen</p>
+          <p>2021</p>
+        </div>
+        <div class="oikea">
+          <p>Kurssityö</p>
+          <p>Web-sivun toteutus</p>
+          <p>html- ja css-kurssi</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
